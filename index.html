@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>📊 Dashboard</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">🏠 Home</li>
+                    <li class="nav-item">👤 Profile</li>
+                    <li class="nav-item">💬 Messages</li>
+                    <li class="nav-item">📅 History</li>
+                    <li class="nav-item">📋 Tasks</li>
+                    <li class="nav-item">👥 Communities</li>
+                </ul>
+                <ul class="nav-list nav-secondary">
+                    <li class="nav-item">⚙️ Settings</li>
+                    <li class="nav-item">❓ Support</li>
+                    <li class="nav-item">🔒 Privacy</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Header Section -->
+            <header class="header">
+                <div class="header-top">
+                    <div class="search-bar">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="header-actions">
+                        <span class="bell-icon">🔔</span>
+                        <img src="https://via.placeholder.com/40x40" alt="profile-picture" class="profile-pic-small">
+                        <span class="username">Morgan Oakley</span>
+                    </div>
+                </div>
+                
+                <div class="header-bottom">
+                    <div class="user-info">
+                        <img src="https://via.placeholder.com/60x60" alt="profile-picture" class="profile-pic-large">
+                        <div class="user-greeting">
+                            <p class="greeting">Hi there,</p>
+                            <p class="user-name">Morgan Oakley (@morgan)</p>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn btn-new">New</button>
+                        <button class="btn btn-upload">Upload</button>
+                        <button class="btn btn-share">Share</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content Grid -->
+            <div class="content">
+                <!-- Projects Section -->
+                <section class="projects-section">
+                    <h2 class="section-title">Your Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Super Cool Project</h3>
+                                <p class="card-description">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Less Cool Project</h3>
+                                <p class="card-description">Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Impossible App</h3>
+                                <p class="card-description">In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Easy Peasy App</h3>
+                                <p class="card-description">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Ad Blocker</h3>
+                                <p class="card-description">Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="card-content">
+                                <h3 class="card-title">Money Maker</h3>
+                                <p class="card-description">Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.</p>
+                            </div>
+                            <div class="card-actions">
+                                <span class="action-icon">⭐</span>
+                                <span class="action-icon">👁️</span>
+                                <span class="action-icon">🔗</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sidebar Right -->
+                <aside class="sidebar-right">
+                    <!-- Announcements -->
+                    <section class="announcements">
+                        <h2 class="section-title">Announcements</h2>
+                        <div class="announcements-container">
+                            <div class="announcement-item">
+                                <h3 class="announcement-title">Site Maintenance</h3>
+                                <p class="announcement-text">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                            </div>
+                            <div class="announcement-item">
+                                <h3 class="announcement-title">Community Share Day</h3>
+                                <p class="announcement-text">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                            </div>
+                            <div class="announcement-item">
+                                <h3 class="announcement-title">Updated Privacy Policy</h3>
+                                <p class="announcement-text">Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Trending -->
+                    <section class="trending">
+                        <h2 class="section-title">Trending</h2>
+                        <div class="trending-container">
+                            <div class="trending-user">
+                                <img src="https://via.placeholder.com/40x40" alt="user avatar" class="user-avatar">
+                                <div class="user-info-trending">
+                                    <p class="trending-username">@tegan</p>
+                                    <p class="trending-project">World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="trending-user">
+                                <img src="https://via.placeholder.com/40x40" alt="user avatar" class="user-avatar">
+                                <div class="user-info-trending">
+                                    <p class="trending-username">@morgan</p>
+                                    <p class="trending-project">Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="trending-user">
+                                <img src="https://via.placeholder.com/40x40" alt="user avatar" class="user-avatar">
+                                <div class="user-info-trending">
+                                    <p class="trending-username">@kendall</p>
+                                    <p class="trending-project">Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="trending-user">
+                                <img src="https://via.placeholder.com/40x40" alt="user avatar" class="user-avatar">
+                                <div class="user-info-trending">
+                                    <p class="trending-username">@alex</p>
+                                    <p class="trending-project">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
